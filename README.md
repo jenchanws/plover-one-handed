@@ -1,6 +1,7 @@
 # One-Handed Stenotype
 
 A Plover plugin implementing a one-handed Stenotype layout.
+Requires Plover v4.0.0.dev8 or later.
 
 Credit goes to Soffit and Kaoffie on the
 [Plover Discord](https://discord.me/plover) for coming up with the idea
