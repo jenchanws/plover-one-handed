@@ -44,27 +44,15 @@ By default, the following keys are used on the one-handed layout:
 The keys are mapped to the two sides of the standard Stenotype layout as follows:
 
 ```
-┌───┬───┬───┬───┬───┐
-│ S │ T │ P │ H │ * │
-└┬──┴┬──┴┬──┴┬──┴┬──┴┬───┐
- │ S │ K │ W │ R │ * │ A │
- └───┴───┴───┴┬──┴┬──┴┬──┴┐
-              │ # │ U │ O │
-              └───┴┬──┴┬──┴┬───┐
-                   │ E │ l │ r │
-                   └───┴───┴───┘
-```
-
-```
-┌───┬───┬───┬───┬───┐
-│ F │ P │ L │ T │ D │
-└┬──┴┬──┴┬──┴┬──┴┬──┴┬───┐
- │ R │ B │ G │ S │ Z │ A │
- └───┴───┴───┴┬──┴┬──┴┬──┴┐
-              │ # │ U │ O │
-              └───┴┬──┴┬──┴┬───┐
-                   │ E │ l │ r │
-                   └───┴───┴───┘
+┌───┬───┬───┬───┬───┐              ┌───┬───┬───┬───┬───┐
+│ S │ T │ P │ H │ * │              │ F │ P │ L │ T │ D │
+└┬──┴┬──┴┬──┴┬──┴┬──┴┬───┐         └┬──┴┬──┴┬──┴┬──┴┬──┴┬───┐
+ │ S │ K │ W │ R │ * │ A │          │ R │ B │ G │ S │ Z │ A │
+ └───┴───┴───┴┬──┴┬──┴┬──┴┐         └───┴───┴───┴┬──┴┬──┴┬──┴┐
+              │ # │ U │ O │                      │ # │ U │ O │
+              └───┴┬──┴┬──┴┬───┐                 └───┴┬──┴┬──┴┬───┐
+                   │ E │ l │ r │                      │ E │ l │ r │
+                   └───┴───┴───┘                      └───┴───┴───┘
 ```
 
 * To stroke an outline on **only the left side** of the keyboard, stroke `l`
@@ -80,3 +68,50 @@ The keys are mapped to the two sides of the standard Stenotype layout as follows
   `KP-/-L`. The plugin interprets the strokes as two halves of the same outline.
 
 Vowels and the number key can be stroked on either side.
+
+### Other Layouts
+
+Other layouts are also available:
+
+* **One-Handed (Mirrored)**
+
+  ```
+  ┌───┬───┬───┬───┬───┐              ┌───┬───┬───┬───┬───┐
+  │ * │ H │ P │ T │ S │              │ F │ P │ L │ T │ D │
+  └┬──┴┬──┴┬──┴┬──┴┬──┴┬───┐         └┬──┴┬──┴┬──┴┬──┴┬──┴┬───┐
+   │ * │ R │ W │ K │ S │ A │          │ R │ B │ G │ S │ Z │ A │
+   └───┴───┴───┴┬──┴┬──┴┬──┴┐         └───┴───┴───┴┬──┴┬──┴┬──┴┐
+                │ # │ U │ O │                      │ # │ U │ O │
+                └───┴┬──┴┬──┴┬───┐                 └───┴┬──┴┬──┴┬───┐
+                     │ E │ l │ r │                      │ E │ l │ r │
+                     └───┴───┴───┘                      └───┴───┴───┘
+  ```
+
+* **One-Handed (Paired Vowels)**, in which only two of the vowels are
+  available on each side:
+
+  ```
+  ┌───┬───┬───┬───┬───┐              ┌───┬───┬───┬───┬───┐
+  │ S │ T │ P │ H │ * │              │ F │ P │ L │ T │ D │
+  └┬──┴┬──┴┬──┴┬──┴┬──┴┐             └┬──┴┬──┴┬──┴┬──┴┬──┴┐
+   │ S │ K │ W │ R │ * │              │ R │ B │ G │ S │ Z │
+   └───┴───┴───┴┬──┴┬──┴┐             └───┴───┴───┴┬──┴┬──┴┐
+                │ # │ A │                          │ # │ U │
+                └───┴┬──┴┬───┬───┐                 └───┴┬──┴┬───┬───┐
+                     │ O │ l │ r │                      │ E │ l │ r │
+                     └───┴───┴───┘                      └───┴───┴───┘
+  ```
+
+* and **One-Handed (Mirrored, Paired Vowels)** with both:
+
+  ```
+  ┌───┬───┬───┬───┬───┐              ┌───┬───┬───┬───┬───┐
+  │ * │ H │ P │ T │ S │              │ F │ P │ L │ T │ D │
+  └┬──┴┬──┴┬──┴┬──┴┬──┴┐             └┬──┴┬──┴┬──┴┬──┴┬──┴┐
+   │ * │ R │ W │ K │ S │              │ R │ B │ G │ S │ Z │
+   └───┴───┴───┴┬──┴┬──┴┐             └───┴───┴───┴┬──┴┬──┴┐
+                │ # │ A │                          │ # │ U │
+                └───┴┬──┴┬───┬───┐                 └───┴┬──┴┬───┬───┐
+                     │ O │ l │ r │                      │ E │ l │ r │
+                     └───┴───┴───┘                      └───┴───┴───┘
+  ```
